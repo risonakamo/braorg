@@ -1,4 +1,72 @@
 #true-random-integer-generator
 {
-    background-color: red;
+    width: 100%;
+    border: none;
+}
+
+#true-random-integer-generator-min-span,#true-random-integer-generator-max-span
+{
+    display: inline;
+}
+
+#true-random-integer-generator-min-span input,#true-random-integer-generator-max-span input
+{
+    margin: 0;
+}
+
+#true-random-integer-generator-min-span
+{
+    margin-left: 23px;
+}
+
+#true-random-integer-generator-min,#true-random-integer-generator-max
+{
+    width: 45% !important;
+    height: 80px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 62px;
+    text-align: center;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #aaa;
+}
+
+#true-random-integer-generator-min:focus,#true-random-integer-generator-max:focus
+{
+    border-bottom: 2px solid #4285F4;
+    color: black;
+}
+
+#true-random-integer-generator-min-span::after
+{
+    content: "to";
+    font-size: 28px;
+    color: #aaa;
+}
+
+#true-random-integer-generator-button
+{
+    width: 100%;
+    border: none;
+    margin: 20px 0 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 48px;
+    background-color: #3B78E7;
+    font-size: 17px;
+    color: white;
+}
+
+#true-random-integer-generator-result
+{
+    background-color: transparent;
+    font-size: 80px;
+}
+
+#true-random-integer-generator-title,#true-random-integer-generator-credits,label
+{
+    display: none;
 }
