@@ -1,0 +1,10 @@
+#homepage-generator
+{
+    float: none;
+    margin: 0;
+}
+
+#homepage-generator iframe
+{
+    width: 100%;
+}

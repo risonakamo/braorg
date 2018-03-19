@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name":"betterrandomorg",
+    "version":"0",
+    "description":"make random.org homepage better",
+
+    "permissions":["https://www.random.org/"],
+
+    "web_accessible_resources":[
+        "betterrandomorg.css","betterrandomorg2.css"
+    ],
+
+    "content_scripts":
+    [{
+        "matches":["https://www.random.org/"],
+        "js":["betterrandomorg.js"],
+        "run_at":"document_end"
+    }]
+}
